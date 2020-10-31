@@ -1,4 +1,4 @@
-Ext.define('EL.view.MainViewModel', {
+Ext.define('EL.view.StarterPanelViewModel', {
     extend: 'Ext.app.ViewModel',
     stores:[{
         menuNav:{
