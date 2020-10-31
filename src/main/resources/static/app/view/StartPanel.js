@@ -5,7 +5,7 @@ Ext.define("EL.view.StartPanel",{
     border:true,
     requires:["EL.view.Menu"],
     viewModel:{
-        xclass:'EL.view.MainViewModel'
+        xclass:'EL.view.StarterPanelViewModel'
     },
     controller:{
       xclass:'EL.view.MainController'
@@ -33,6 +33,8 @@ Ext.define("EL.view.StartPanel",{
     }, {
         xtype:'panel',
         title: 'header',
+        split: true,
+        layout:'fit',
         items:[{
             xtype:'panel',
             layout: {
