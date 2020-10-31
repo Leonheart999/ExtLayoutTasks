@@ -1,7 +1,7 @@
 Ext.application({
     name: "EL",
     appFolder: "app",
-    requires:["EL.view.MainView"],
-    mainView: "EL.view.MainView"
+    requires:["EL.view.StartPanel"],
+    mainView: "EL.view.StartPanel"
 
 });
