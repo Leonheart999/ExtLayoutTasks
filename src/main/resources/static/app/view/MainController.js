@@ -7,7 +7,7 @@ Ext.define('EL.view.MainController', {
         let tab = this.lookup(className);
         if(!tab) {
             tab = Ext.create(className, {
-                reference: title,
+                reference: className,
                 closable: true,
                 title: title
             });

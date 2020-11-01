@@ -16,16 +16,7 @@ Ext.define("EL.view.StartPanel",{
         autoScroll:true,
         title:'main',
         region:'center',
-        items: [{
-            xclass:"EL.view.VBox",
-            title:'VBox'
-        },{
-            xclass:"EL.view.HBox",
-            title:'HBox'
-        },{
-            xclass:"EL.view.Fit",
-            title:'Fit'
-        }
+        items: [
         ]
     },{
         xtype:'menu',
