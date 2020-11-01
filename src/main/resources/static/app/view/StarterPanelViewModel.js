@@ -1,6 +1,6 @@
 Ext.define('EL.view.StarterPanelViewModel', {
     extend: 'Ext.app.ViewModel',
-    stores:[{
+    stores:{
         menuNav:{
             type:'tree',
             root:{
@@ -24,6 +24,6 @@ Ext.define('EL.view.StarterPanelViewModel', {
                 ]
             }
         }
-    }]
+    }
 
 })
