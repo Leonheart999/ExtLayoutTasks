@@ -1,13 +1,18 @@
-Ext.define("EL.view.Grid",{
+Ext.define("EL.view.PostsGrid",{
     extend: 'Ext.grid.Panel',
     xtype: 'array-grid',
     collapsible: true,
-    height: 500,
     multiSelect: true,
     viewConfig: {
         enableTextSelection: true
     },
     bind:'{posts}',
+    tbar:[{
+        xtype:'button',
+        text:'buttnn1'
+    }, {
+            text: 'button2'
+    }],
     columns:[{
         text:'ID',
         width:50,

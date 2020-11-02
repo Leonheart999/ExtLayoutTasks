@@ -17,10 +17,19 @@ Ext.define('EL.view.StarterPanelViewModel', {
                     text:'Fit',
                     className:"EL.view.Fit",
                     leaf:true
-                },
+                },{
+                    text:'Grid',
+                    className:"EL.view.PostsGrid",
+                    leaf:true
+                }
                 ]
             }
+        },
+        posts:{
+            xclass:'EL.store.Posts'
         }
+
+
     }
 
 })
