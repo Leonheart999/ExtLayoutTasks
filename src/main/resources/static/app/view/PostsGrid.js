@@ -9,7 +9,7 @@ Ext.define("EL.view.PostsGrid",{
     bind:'{posts}',
     tbar:[{
         xtype:'button',
-        text:'buttnn1'
+        text:'button1'
     }, {
             text: 'button2'
     }],
